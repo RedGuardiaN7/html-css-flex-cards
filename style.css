@@ -1,0 +1,13 @@
+* {
+    font-family: "Fredoka";
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color:deeppink;
+}
