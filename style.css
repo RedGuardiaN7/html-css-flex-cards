@@ -10,4 +10,18 @@ main {
 
 h1 {
     color:deeppink;
+    margin-bottom: 50px;
+}
+
+.main-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.flex-item {
+    background-color: black;
+    width: 30%;
+    height: 100px;
 }
