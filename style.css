@@ -11,6 +11,11 @@ main {
 h1 {
     color:deeppink;
     margin-bottom: 50px;
+    font-size: 40px;
+}
+
+p{
+    font-size: large;
 }
 
 .main-flex-container {
@@ -26,4 +31,25 @@ h1 {
     width: 30%;
     height: 100px;
     margin: 20px 0px;
+}
+
+.secondary-flex-container {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100px;
+    object-fit: scale-down;
+    aspect-ratio: 1/1;
+}
+
+.secondary-flex-item {
+    margin: 10px;
+}
+
+.secondary-flex-item h3, p {
+    margin: 2px;
+    text-align: left;
 }
